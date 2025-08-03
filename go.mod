@@ -1,6 +1,8 @@
 module github.com/openshift/configure-goalert-operator
 
-go 1.19
+go 1.21
+
+toolchain go1.24.4
 
 require (
 	github.com/go-logr/logr v1.2.3
